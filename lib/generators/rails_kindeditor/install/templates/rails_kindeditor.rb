@@ -29,11 +29,11 @@ RailsKindeditor.setup do |config|
 end
 
 ## if you want use upyun store file ,you must set it
-# Kindeditor::AssetUploader.setup do |config|
+Kindeditor::AssetUploader.setup do |config|
 #   config.storage = :upyun
 
 #   config.upyun_username = 'xxx'
 #   config.upyun_password = 'xxx'
 #   config.upyun_bucket = 'xxx'
 #   config.upyun_bucket_host = 'xxx'
-# end
+end
